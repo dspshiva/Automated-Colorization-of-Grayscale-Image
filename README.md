@@ -25,10 +25,10 @@ You can **test the live demo** of the colorization system hosted on [AWS EC2](ht
 
 ## Screenshots
 
-### **Model Output 1 **  
+### **Model Output 1**  
 ![Colorization Enabled](https://github.com/dspshiva/Automated-Colorization-of-Grayscale-Image/blob/main/static/Screenshot%202025-04-21%20202241.png)
 
-### **Model Output 2 **  
+### **Model Output 2**  
 ![Colorization Removed](https://github.com/dspshiva/Automated-Colorization-of-Grayscale-Image/blob/main/static/Screenshot%202025-04-21%20203618.png)
 
 
