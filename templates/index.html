@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorization Project</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             background-image: url('/static/camel.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+        h1 {
+        font-size: 3.5rem;
+        margin-top: 10%;
+        color: white; /* Gold color */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+
+p {
+    font-size: 1.5rem;
+    margin-left: 100px ;
+    color: #FFFFFF; /* White color */
+    text-shadow:1px 1px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+}
+
+        button {
+            font-size: 1rem;
+            padding: 20px 40px;
+            border: 2px solid white;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+            margin-left : 470px;
+            margin-bottom: 420px;
+        }
+        button:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Image Colorization Project</h1>
+        <p>This project detect and apply realistic colors to grayscale images, making them vibrant.</p>
+        <a href="/upload"><button>Proceed</button></a>
+    </div>
+</body>
+</html>

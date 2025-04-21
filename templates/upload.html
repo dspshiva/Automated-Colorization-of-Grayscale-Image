@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <style>
+        /* General Body Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             background-image: url('/static/second.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+
+        /* Header Styles */
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* File Input Styling */
+        input[type="file"] {
+            display: inline-block;
+            font-size: 1rem;
+            color: white;
+<!--            background-color: black;-->
+            padding: 10px 20px;
+<!--            border: 1px solid white;-->
+            border-radius: 5px;
+            cursor: pointer;
+            width: auto; /* Ensures the button is not stretched */
+        }
+
+        input[type="file"]::-webkit-file-upload-button {
+            font-size: 1.2rem;
+            color: white;
+            background-color: #212121;
+            padding: 10px 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+<!--            margin-left : 300px;-->
+        }
+
+<!--        input[type="file"]::-webkit-file-upload-button:hover {-->
+<!--            background-color: #212121;-->
+<!--        }-->
+
+        /* Button Styling */
+        button {
+            background-color: #212121;
+            border-color: none;
+            color: white;
+            padding: 12px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 35px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            background-color: #424242;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Your Black and White Image</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Upload and Colorize</button>
+        </form>
+    </div>
+</body>
+</html>
