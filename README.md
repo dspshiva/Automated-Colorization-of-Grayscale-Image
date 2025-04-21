@@ -27,13 +27,4 @@ The core of the project involves using a deep learning model trained on a datase
 ### Colorization Removed
 ![Colorization Removed](https://github.com/dspshiva/Automated-Colorization-of-Grayscale-Image/blob/main/static/Screenshot%202025-04-21%20203618.png)
 
-## Training a Custom Model
 
-If you'd like to train the model on your own dataset, follow the instructions in the `train_model.py` file. You will need a dataset of color images and grayscale versions of those images.
-
-1. Prepare your dataset (color and grayscale images).
-2. Configure the model architecture in `train_model.py`.
-3. Run the training script:
-   
-   ```bash
-   python train_model.py
