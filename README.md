@@ -22,7 +22,7 @@ The core of the project involves using a deep learning model trained on a datase
 ## Screenshots
 
 ### Colorization Enabled
-![Colorization Enabled](https://github.com/dspshiva/Automated-Colorization-of-Grayscale-Image/blob/main/static/Screenshot%202025-04-21%20201838.png)
+![Colorization Enabled](https://github.com/dspshiva/Automated-Colorization-of-Grayscale-Image/blob/main/static/Screenshot%202025-04-21%20202241.png)
 
 ### Colorization Removed
 ![Colorization Removed](https://github.com/dspshiva/Automated-Colorization-of-Grayscale-Image/blob/main/static/Screenshot%202025-04-21%20201838.png)
