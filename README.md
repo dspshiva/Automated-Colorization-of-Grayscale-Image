@@ -19,6 +19,10 @@ The core of the project involves using a deep learning model trained on a datase
 - Image preprocessing and postprocessing using OpenCV for optimal results.
 - Ability to process large datasets for training and real-time colorization.
 
+## Live Demo
+
+You can **test the live demo** of the colorization system hosted on [AWS EC2](http://51.20.253.214:5000/) by uploading grayscale images for real-time colorization.
+
 ## Screenshots
 
 ### Colorization Enabled
